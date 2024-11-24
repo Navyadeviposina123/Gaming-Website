@@ -1,0 +1,9 @@
+function showDetails(gameId) {
+    const gameDetails = {
+        game1: "Game 1 is an action-packed adventure game, offering a thrilling experience with every level.",
+        game2: "Game 2 is a strategy game that challenges players to think critically and plan their moves.",
+        game3: "Game 3 is a sports simulation game with realistic graphics and a highly competitive environment."
+    };
+
+    alert(gameDetails[gameId]);
+}
