@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Gaming World</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#games">Games</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="banner">
+        <h2>Welcome to Gaming World</h2>
+        <p>Your ultimate destination for all things gaming!</p>
+    </section>
+
+    <section id="games" class="games-list">
+        <h3>Popular Games</h3>
+        <div class="game-card" id="game1">
+            <img src="game1.jpg" alt="Game 1">
+            <h4>Game 1</h4>
+            <button class="learn-more" onclick="showDetails('game1')">Learn More</button>
+        </div>
+        <div class="game-card" id="game2">
+            <img src="game2.jpg" alt="Game 2">
+            <h4>Game 2</h4>
+            <button class="learn-more" onclick="showDetails('game2')">Learn More</button>
+        </div>
+        <div class="game-card" id="game3">
+            <img src="game3.jpg" alt="Game 3">
+            <h4>Game 3</h4>
+            <button class="learn-more" onclick="showDetails('game3')">Learn More</button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h3>Contact Us</h3>
+        <p>Have any questions? Feel free to reach out to us!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gaming World. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
